@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .card .date {
+    margin-right: 10rem;
+  }
+
+
+  .card>* {
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.h3 {
+  margin-top: 2.5rem;
+}
+
+.h5 {
+  color: var(--light-gray);
+}
+
+.h1,
+.h3 {
+  color: var(--white);
+  font-weight: bolder;
+}
+
+.h3,
+.h5 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.card-header>.date {
+  color: var(--light-gray);
+  margin-bottom: 0.3rem;
+}
+
+.card-header>.title {
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.card-footer>ul.keywords {
+  list-style-type: none;
+  color: var(--accent-color);
+}
+
+.card-footer>ul.keywords>li {
+  display: inline-block;
+  background-color: var(--transparent-accent-color);
+  border-radius: 10px;
+  padding: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}

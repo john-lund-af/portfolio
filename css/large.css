@@ -1,0 +1,19 @@
+@media screen and (min-width: 1200px) {
+
+  .container #merits {
+    max-width: 60%;
+  }
+
+  #header article {
+    position: fixed;
+  }
+
+  .card {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .card>* {
+    max-width: 50%;
+  }
+}

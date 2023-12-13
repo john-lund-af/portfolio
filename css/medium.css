@@ -1,0 +1,23 @@
+@media screen and (min-width: 992px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  .container #merits {
+    max-width: 50%;
+  }
+
+  #header article {
+    position: fixed;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card>* {
+    max-width: 100%;
+  }
+}
