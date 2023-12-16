@@ -46,6 +46,15 @@ p {
   line-height: 1.5;
 }
 
+#about .h3,
+#experience .h3 {
+  position: sticky;
+  top: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: var(--transparent-darker-green);
+}
+
 .social-media {
   font-size: 28px;
 }
