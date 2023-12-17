@@ -17,11 +17,19 @@
     position: fixed;
   }
 
+  .menu {
+    display: block;
+  }
+
   .card {
     flex-direction: column;
   }
 
   .card>* {
     max-width: 100%;
+  }
+
+  .md-hidden {
+    visibility: collapse;
   }
 }
