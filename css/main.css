@@ -7,9 +7,8 @@
   /* accent colors */
   --lighter-green: #8bc34a;
   /* For contrast or highlights */
-  /* --darker-green: #388e3c; */
-  --darker-green: rgb(6, 54, 9);
-  --transparent-darker-green: rgba(6, 54, 9, 0.8);
+  --darker-green: rgb(3, 26, 4);
+  --transparent-darker-green: rgba(3, 26, 4, 0.8);
   /* A darker shade for shadows or deeper elements */
 
   /* neutrals */
