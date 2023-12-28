@@ -2,19 +2,19 @@
   .container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 3rem;
   }
 
-  #header article {
-    max-width: 500px;
+  #header {
+    flex-basis: 50%;
   }
 
-  .container #merits {
-    max-width: 50%;
+  #merits {
+    flex-basis: 50%;
   }
 
   #header article {
     position: fixed;
+    max-width: 50%;
   }
 
   .menu {

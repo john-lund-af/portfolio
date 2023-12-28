@@ -2,26 +2,28 @@
 
 :root {
   /* main green color (A shade of green) */
-  --primary-color: #4caf50;
+  --primary-color: rgb(76, 175, 80);
 
   /* accent colors */
   --lighter-green: #8bc34a;
   /* For contrast or highlights */
   --darker-green: rgb(3, 26, 4);
   --transparent-darker-green: rgba(3, 26, 4, 0.8);
+  --transparent-lighter-green: rgba(8, 66, 11, 0.7);
   /* A darker shade for shadows or deeper elements */
 
   /* neutrals */
   --white: #fff;
   /* For backgrounds or clean elements */
-  --light-gray: #e0e0e0;
+  --light-gray: rgb(224, 224, 224);
   /* For subtle contrasts */
   --dark-gray: #333;
+  --transparent-ligth-gray: rgba(224, 224, 224, 0.8);
   /* For text or borders */
 
   /* call-to-action color (contrasts well with green for buttons or call-to-action elements)  */
   --accent-color: rgb(255, 153, 0);
-  --transparent-accent-color: rgba(255, 255, 255, 0.2);
+  --transparent-accent-color: rgba(255, 255, 255, 0.5);
 
   /* background color */
   --background-color: #f5f5f5;
@@ -36,7 +38,11 @@
 
 body {
   background-color: var(--darker-green);
-  color: var(--light-gray);
+  color: var(--transparent-ligth-gray);
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+.upper {
+  text-transform: uppercase;
 }

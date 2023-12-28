@@ -42,7 +42,7 @@
     <section id="merits">
 
       <article id="about">
-        <div class="h3 md-hidden">ABOUT</div>
+        <div class="h3 md-hidden upper">About</div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam numquam porro, repellat error
           quod
           nesciunt libero minima minus quas excepturi odit? Omnis quo fugit incidunt, nobis qui aut maiores.</p>
@@ -57,11 +57,18 @@
       </article>
 
       <article id="experience">
-        <div class="h3 md-hidden">EXPERIENCE</div>
+        <div class="h3 md-hidden upper">Experience</div>
 
-        <%- include('includes/card.ejs') %>
+        <% portfolio.work_experience.forEach(function(experience) { %>
+          <%- include('./includes/card.ejs', {experience}) %>
+            <% }); %>
 
       </article>
+
+      <article id="education">
+        <div class="h3 md-hidden upper">Education</div>
+      </article>
+
     </section>
   </main>
 </body>

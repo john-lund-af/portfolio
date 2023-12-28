@@ -5,15 +5,14 @@
 
   .card {
     flex-direction: row;
-    justify-content: flex-start;
+
   }
 
   .card .date {
-    margin-right: 10rem;
+    flex-basis: 50%;
   }
 
-
-  .card>* {
-    max-width: 50%;
+  .card .content {
+    flex-basis: 50%;
   }
 }

@@ -12,6 +12,8 @@
 
 .h3 {
   margin-top: 2.5rem;
+  font-size: large;
+  line-height: 1.25rem;
 }
 
 .h5 {
@@ -20,13 +22,12 @@
 
 .h1,
 .h3 {
-  color: var(--white);
+  color: var(--light-gray);
   font-weight: bolder;
 }
 
 .h3,
 .h5 {
-  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -89,9 +90,14 @@ p {
   margin-bottom: 3rem;
 }
 
-.card-header>.date {
-  color: var(--light-gray);
-  margin-bottom: 0.3rem;
+.card a.link {
+  display: none;
+}
+
+.card .date {
+  color: var(--transparent-accent-color);
+  margin-bottom: 0.7rem;
+  font-weight: bolder;
 }
 
 .card-header>.title {
@@ -108,7 +114,7 @@ p {
 
 .card-footer>ul.keywords>li {
   display: inline-block;
-  background-color: var(--transparent-accent-color);
+  background-color: var(--transparent-lighter-green);
   border-radius: 10px;
   padding: 8px;
   margin-right: 5px;
