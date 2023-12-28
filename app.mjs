@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import rootDir from './utils/path.mjs';
+import portfolioData from './data/portfolio.json' assert { type: 'json' };
 
 const PORT = 5000;
 const app = express();
@@ -10,9 +11,19 @@ app.use(express.static(path.join(rootDir, 'public')));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res, next) => {
-  res.render('index');
+  res.render('index', {
+    portfolio: portfolioData
+  });
 });
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Running on PORT: ${PORT}`);
+});
+
+server.on('error', (error) => {
+  console.error(error);
+});
+
+server.on('close', () => {
+  console.log('Server shut down.');
 });
