@@ -1,6 +1,7 @@
 {
   "work_experience": [
     {
+      "href": "https://www.lexicon.se/IT-Proffs/IT-Proffs/Oversikt/",
       "company_name": "Lexicon IT-Proffs",
       "city": "Stockholm",
       "position": "Course Coordinator",
@@ -18,6 +19,7 @@
       "description": "Managed the Frontend Course, including participant selection, material curation, and organization on Microsoft Teams. Conducted interviews, created entrance exams, graded assignments, and provided support for lab work, certificate studies, and job searches, ensuring a comprehensive learning experience."
     },
     {
+      "href": "https://www.streamingmediaglobal.com/Sourcebook/ReadCompany.aspx?ID=5397",
       "company_name": "Nexeven AB",
       "city": "Stockholm",
       "position": "QA Engineer",
@@ -27,6 +29,7 @@
       "description": "Designed and implemented functional automated tests for video analysis systems using Java, JUnit, and Selenium. Developed a web application for testing video analysis agents with Aurelia, and RESTful services for iOS player sessions. Created database models in MySQL and MongoDB, and configured Jenkins server for test execution."
     },
     {
+      "href": "https://www.cision.se/",
       "company_name": "Cision AB",
       "city": "Stockholm",
       "position": "Web Developer",
@@ -44,6 +47,7 @@
       "description": "Summary: Proficient in manufacturing applications with Microsoft's framework, emphasizing C#. Skilled in web development using .NET and MVC, engaging in both frontend and backend programming with C#, Javascript, HTML, and CSS. Experienced in managing databases, particularly SQL Server."
     },
     {
+      "href": "https://webmaster.slashx.se/",
       "company_name": "Slash X",
       "city": "Stockholm",
       "position": "Web Developer",
