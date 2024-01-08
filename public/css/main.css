@@ -41,6 +41,7 @@ body {
   color: var(--transparent-ligth-gray);
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 .upper {
