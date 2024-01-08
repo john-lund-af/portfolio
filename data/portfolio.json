@@ -65,34 +65,8 @@
       "start_date": "Sep 2002",
       "end_date": "May 2005",
       "orientation": "Computer Science",
+      "keywords": ["OOP", "Java", "C", "C++", "JavaScript", "RDB"],
       "description": "Focus on Internet programming with Java framework, Javascript, HTML, and CSS. Learned procedural and object-oriented programming, management of relational databases, and object-oriented analysis and design."
-    },
-    {
-      "school_name": "Lexicon IT-Proffs",
-      "city": "Stockholm",
-      "education_type": "Labour Market Training",
-      "start_date": "Oct 2018",
-      "end_date": "Feb 2019",
-      "orientation": "NET Core",
-      "description": "Developed web applications using C# with a focus on object-oriented programming, MVC Core architecture, and unit testing with NUnit. Employed backend technologies such as Entity Framework Core for data access and RESTful-style WCF services. Utilized frontend technologies including JavaScript for programming, HTML for structuring, and CSS for layout design."
-    },
-    {
-      "school_name": "Lexicon IT-Proffs",
-      "city": "Stockholm",
-      "education_type": "Labour Market Training",
-      "start_date": "Oct 2015",
-      "end_date": "Feb 2016",
-      "orientation": "Java EE7",
-      "description": "Implemented Java web development, utilizing Java SE 8 and Java EE 7 for backend tasks. Employed Javascript for frontend, structured HTML, and designed layouts using CSS. Utilized SQL with MySQL for databases. Engaged in test-driven development, undertaking e-learning and lectures for ISTQB certification preparation."
-    },
-    {
-      "school_name": "Eductus",
-      "city": "Stockholm",
-      "education_type": "Labour Market Training",
-      "start_date": "Jan 2011",
-      "end_date": "Jun 2011",
-      "orientation": "Microsoft Certification Training",
-      "description": "Studied WCF, .NET data access, and SQL Server maintenance. Developed service-oriented apps, configured .NET framework, and maintained SQL Server. Earned MCTS certifications in WCF, .NET data access, and SQL Server 2008 implementation and maintenance."
     }
   ]
 }

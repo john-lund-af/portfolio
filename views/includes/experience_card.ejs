@@ -1,0 +1,32 @@
+<!--Card-->
+<div class="card">
+  <a class="link" target="_blank" href="<%=data.href%>"></a>
+  <div class="date upper">
+    <%= data.start_date %> — <%= data.end_date %>
+  </div>
+
+
+  <div class="content">
+    <div class="card-header">
+      <div class="title"><a target="_blank" href="<%=data.href%>">
+          <%= data.position %> — <%= data.company_name %>
+        </a></div>
+    </div>
+    <div class="card-text">
+      <p>
+        <%= data.description %>
+      </p>
+    </div>
+    <div class="card-footer">
+      <ul class="keywords">
+        <% data.keywords?.forEach(function(keyword) { %>
+          <li>
+            <%= keyword %>
+          </li>
+          <% }) %>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<!--END Card-->

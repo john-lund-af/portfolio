@@ -1,25 +1,25 @@
 <!--Card-->
 <div class="card">
-  <a class="link" target="_blank" href="<%=experience.href%>"></a>
+  <a class="link" target="_blank" href="<%=data.href%>"></a>
   <div class="date upper">
-    <%= experience.start_date %> — <%= experience.end_date %>
+    <%= data.start_date %> — <%= data.end_date %>
   </div>
 
 
   <div class="content">
     <div class="card-header">
-      <div class="title"><a target="_blank" href="<%=experience.href%>">
-          <%= experience.position %> — <%= experience.company_name %>
+      <div class="title"><a target="_blank" href="<%=data.href%>">
+          <%= data.school_name %> — <%= data.orientation %>
         </a></div>
     </div>
     <div class="card-text">
       <p>
-        <%= experience.description %>
+        <%= data.description %>
       </p>
     </div>
     <div class="card-footer">
       <ul class="keywords">
-        <% experience.keywords.forEach(function(keyword) { %>
+        <% data.keywords?.forEach(function(keyword) { %>
           <li>
             <%= keyword %>
           </li>

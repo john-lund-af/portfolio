@@ -60,13 +60,17 @@
         <div class="h3 md-hidden upper">Experience</div>
 
         <% portfolio.work_experience.forEach(function(experience) { %>
-          <%- include('./includes/card.ejs', {experience}) %>
+          <%- include('./includes/experience_card.ejs', {data: experience}) %>
             <% }); %>
 
       </article>
 
       <article id="education">
         <div class="h3 md-hidden upper">Education</div>
+
+        <% portfolio.education.forEach(function (education) { %>
+          <%- include('./includes/education_card.ejs', {data: education}) %>
+            <% }) %>
       </article>
 
     </section>
