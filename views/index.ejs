@@ -21,7 +21,8 @@
       <article>
         <div class="h1">John Lundgren</div>
         <div class="h3">Fron-End Developer</div>
-        <div class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, beatae!</div>
+        <div id="subTitle_2" class="h5">Elevating IT Excellence: Web Development and QA, Expertis Unleashed
+        </div>
         <div class="menu">
           <ul class="menu-list">
             <li class="menu-list-item">
@@ -45,37 +46,49 @@
     <section id="merits">
 
       <article id="about">
-        <div class="h3 md-hidden upper">About</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam numquam porro, repellat error
-          quod
-          nesciunt libero minima minus quas excepturi odit? Omnis quo fugit incidunt, nobis qui aut maiores.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ducimus atque officiis reiciendis, veniam non
-          quibusdam unde maiores dolore ab, iure vel harum asperiores? Commodi cupiditate, quisquam voluptatibus
-          provident
-          illum mollitia magnam ut. Voluptatem saepe unde ad quas nulla eaque voluptas laboriosam nobis dolorem pariatur
-          sapiente, modi sequi vitae veritatis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quis adipisci eligendi dolore illo accusamus
-          veritatis in sunt porro quaerat animi ducimus perferendis nulla necessitatibus quibusdam officia odio fugit
-          dolor!</p>
+        <div class="h3 section-title md-hidden upper">About</div>
+        <p>
+          Dedicated and highly qualified IT professional with an extensive background in web development, quality
+          assurance, and
+          education. Throughout my career, I have excelled in various roles, including course coordinator and teaching
+          assistant
+          at Lexicon AB, where I managed presentations and interviews, selected course materials, and provided valuable
+          support to
+          participants.
+        </p>
+        <p>
+          My expertise also encompasses quality assurance and automated testing, as demonstrated during my time at
+          Nexeven AB.
+          There, I designed functional automated tests for video analysis systems, implemented tests using Java and
+          JUnit, and
+          developed frameworks for browser interaction. I further enhanced my technical skills at Cision AB,
+          specializing in
+          application development with Microsoft's framework, focusing on C#, as well as web development with the .NET
+          framework
+          and MVC architecture.
+        </p>
+
       </article>
 
       <article id="experience">
-        <div class="h3 md-hidden upper">Experience</div>
+        <div class="h3 section-title md-hidden upper">Experience</div>
 
         <% portfolio.work_experience.forEach(function(experience) { %>
           <%- include('./includes/experience_card.ejs', {data: experience}) %>
             <% }); %>
-
       </article>
 
       <article id="education">
-        <div class="h3 md-hidden upper">Education</div>
+        <div class="h3 section-title md-hidden upper">Education</div>
 
         <% portfolio.education.forEach(function (education) { %>
           <%- include('./includes/education_card.ejs', {data: education}) %>
             <% }) %>
       </article>
 
+      <div class="more_info">
+        <a class="link" target="_blank" href="">View full Résumé</a>
+      </div>
     </section>
   </main>
 </body>
