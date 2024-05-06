@@ -17,7 +17,6 @@ app.get('/', (req, res, next) => {
 });
 
 const server = app.listen(PORT, () => {
-  console.log(portfolioData);
   console.log(`Running on PORT: ${PORT}`);
 });
 
