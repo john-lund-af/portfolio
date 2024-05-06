@@ -3,7 +3,7 @@ import path from 'path';
 import rootDir from './utils/path.mjs';
 import portfolioData from './data/portfolio.json' assert { type: 'json' };
 
-const PORT = 5000;
+const PORT = 3000;
 const app = express();
 
 app.use(express.static(path.join(rootDir, 'public')));
